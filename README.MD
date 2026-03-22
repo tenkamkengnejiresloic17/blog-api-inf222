@@ -60,8 +60,6 @@ node app.js
 
 | Méthode | Endpoint | Description |
 
-|---------|----------|-------------|
-
 | GET | /api/articles | Récupérer tous les articles |
 
 | POST | /api/articles | Créer un article |
