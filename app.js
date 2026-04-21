@@ -5,8 +5,7 @@ const swaggerJsdoc = require('swagger-jsdoc');
 const articlesRouter = require('./src/routes/articles');
 
 const app = express();
-const PORT = 3000;
-
+const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 const swaggerOptions = {
